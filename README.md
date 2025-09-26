@@ -24,7 +24,7 @@ User Input: "Thu tiền khách hàng Tô Mạnh"
 
 Information Extraction: (Hành động, Đối tượng, Loại đối tượng)
 
-- NER: phát hiện entity ("Khách hàng", "Nhà CC") có thể sử dụng thư viện spaCy của python kết hợp với model phoBERT
+- NER: phát hiện entity ("Khách hàng", "Nhà CC") có thể sử dụng thư viện spaCy hoặc underthesea của python kết hợp với model phoBERT
 - SRL: hành động ("Thu")
 - Relation Extraction
 
