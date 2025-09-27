@@ -179,9 +179,11 @@ B/I-EXPENSE: Chi phí (đầu tài khoản 6, 8) (Chi phí lương, chi phí qu�
 
 B/I-LIABILITY: Nợ phải trả (đầu tài khoản 3) (Phải trả người bán, vay ngân hàng, thuế...)
 
-B/I-EQUITY: Vốn chủ sở hữu (đầu tài khoản 4, 9) (Vốn đầu tư của chủ sở hữu, quỹ, lợi nhuận sau thuế...)
+B/I-EQUITY: Vốn chủ sở hữu (đầu tài khoản 4) (Vốn đầu tư của chủ sở hữu, quỹ, lợi nhuận sau thuế chưa phân phối...)
 
-B/I-REVENUE: Doanh thu (đầu tài khoản 5, 7) Doanh thu bán hàng, thu nhập khác, doanh thu tài chính...
+B/I-REVENUE: Doanh thu (đầu tài khoản 5, 7) (Doanh thu bán hàng, thu nhập khác, doanh thu tài chính...)
+
+B/I-PROFIT: Lợi nhuận (đầu tài khoản 9) (Xác định kết quả kinh doanh)
 
 B/I-AMOUNT: Giá trị (50,000,000đ, 100 triệu, 10 gói mì tôm...)
 
