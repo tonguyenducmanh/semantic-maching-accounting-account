@@ -204,6 +204,4 @@ __marimo__/
 
 .DS_Store
 
-data/
-data_accounting/
-excel_files/
+models_ai/

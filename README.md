@@ -95,7 +95,7 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 
 - Tài khoản có: 411
 
-## Ứng dụng model AI để gợi ý được đủ 3 bước này:
+### Ứng dụng model AI để gợi ý được đủ 3 bước này:
 
 Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
 
@@ -103,7 +103,16 @@ hướng dẫn sử dụng model PhoBERT để thao tác với tiếng việt, t
 
 [PhoBERT film momo](sample_bert/Phobert_FilmMomo.ipynb)
 
-
 hướng dẫn NER với PhoBERT, tham khảo
 
 https://github.com/Avi197/Phobert-Named-Entity-Reconigtion
+
+### Giải pháp dự phòng
+
+2 library như spaCy và underthesea cũng có thể xử lý NLP, cân nhắc xem nếu PhoBERT không hiệu quả thì dùng 2 thư viện kia.
+
+Trong đó underthesea tập trung cho tiếng Việt hơn
+
+### Named Entity Recognition - NER
+
+Sử dụng CoNLL format
