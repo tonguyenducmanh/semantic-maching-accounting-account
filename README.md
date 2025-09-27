@@ -97,9 +97,9 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 
 ### Ứng dụng model AI để gợi ý được đủ 3 bước này:
 
-Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
+Tại bước 1: Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
 
-Dùng PhoBERT để bóc tách diễn giải ra NER (sẽ giải thích ở bên dưới), sau đó dựa vào danh sách các từ đã bóc tách được, sử dụng rule base hoặc model AI khác để gợi ý ra tài khoản nợ có theo 3 bước trên
+Dùng PhoBERT để bóc tách diễn giải ra NER (sẽ giải thích ở bên dưới)
 
 hướng dẫn sử dụng model PhoBERT để thao tác với tiếng việt, tham khảo
 
@@ -108,6 +108,26 @@ hướng dẫn sử dụng model PhoBERT để thao tác với tiếng việt, t
 hướng dẫn NER với PhoBERT, tham khảo
 
 https://github.com/Avi197/Phobert-Named-Entity-Reconigtion
+
+Tại bước 2: Dựa vào danh sách các từ đã bóc tách được
+
+Sử dụng Rule base (code truyền thống) hoặc GPT để phân tích biến động tăng giảm
+
+Ưu tiên Rule base => Đây là logic nghiệp vụ kế toán gần như bất biến. Nếu dùng rule base thì kết quả trả về gần như tức thì.
+
+Ví dụ: Nếu NER bóc tách được (ASSET - Tài sản) + (ACTION=Mua/Nhận) → ASSET Tăng (Ghi Nợ).
+
+Tránh dùng GPT để tăng tốc độ.
+
+Tại bước 3: Ánh xạ mã tài khoản (Định khoản)
+
+Sử dụng cách tra cứu tài khoản trong database hoặc mô hình phân loại siêu tốc
+
+Ưu tiên tra cứu để tốc độ nhanh.
+
+Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực thể (entity) ở đây là Tiền mặt → TK 111
+
+Nếu cần phân loại phức tạp hơn (ví dụ: 621, 622, 627), dùng một Mô hình Phân loại đơn giản (như SVM hoặc Linear Layer trên đầu ra của PhoBERT) đã được huấn luyện riêng.
 
 ### Giải pháp dự phòng
 
