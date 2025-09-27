@@ -125,7 +125,13 @@ Sử dụng cách tra cứu tài khoản trong database hoặc mô hình phân l
 
 Ưu tiên tra cứu để tốc độ nhanh.
 
-Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực thể (entity) ở đây là Tiền mặt → TK 111
+Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực thể (entity) ở đây là Tiền mặt → tìm ra số tài khoản tương ứng
+
+Ở bước nhận diện số tài khoản này có 2 hướng xử lý:
+
+- Xử lý theo nghiệp vụ chung: trả về default tài khoản 111
+
+- Xử lý theo hướng cá nhân hóa: lặp lại từ bước 1 với các diễn giải các chứng từ đã lập của người dùng tại database cụ thể, kiểm tra xem tài khoản đã lưu của người dùng là gì. ví dụ 1111 thì lấy 1111, không có thì lấy 111
 
 Nếu cần phân loại phức tạp hơn (ví dụ: 621, 622, 627), dùng một Mô hình Phân loại đơn giản (như SVM hoặc Linear Layer trên đầu ra của PhoBERT) đã được huấn luyện riêng.
 
