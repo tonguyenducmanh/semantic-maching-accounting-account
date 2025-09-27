@@ -37,6 +37,18 @@ Trong đó:
 
 - Lợi nhuận: Ghi giảm bên nợ, ghi tăng bên có
 
+### Danh sách các nhóm tài khoản:
+
+- Loại 1, loại 2 là tài sản
+
+- Loại 3, loại 4 là nguồn vốn
+
+- Loại 5, loại 7 là doanh thu, thu nhập
+
+- Loại 6, loại 8 là chi phí
+
+- Loại 9 xác định kết quả hoạt động kinh doanh
+
 ### Mỗi khi muốn điền tài khoản nợ, có, kế toán viên phải thực hiện 3 bước sau:
 
 Ví dụ 1: Ngày 02/10/2025, Công ty TMDV Keto mua một máy Photocopy trị giá 50000000 đ. Công ty hẹn sẽ thanh toán chuyển khoản sau 1 tháng.
