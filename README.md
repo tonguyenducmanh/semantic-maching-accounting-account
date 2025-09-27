@@ -115,4 +115,30 @@ Trong đó underthesea tập trung cho tiếng Việt hơn
 
 ### Named Entity Recognition - NER
 
-Sử dụng CoNLL format
+NER là "Nhận dạng thực thể". Vai trò chính của tác vụ này là nhận dạng các cụm từ trong văn bản và phân loại chúng vào trong các nhóm đã được định trước
+
+Ví dụ: Tên người, tổ chức, địa điểm, thời gian, loại sản phẩm, nhãn hiệu,...
+
+Câu text mẫu:
+
+Hôm nay Tô Mạnh đi mua 10 gói mì tôm.
+
+Khi dùng NER, nhận biết được "Tô Mạnh" là "Person", "mua" là "Action", "10" là "Quantity", "mì tôm" là "Inventory"
+
+### IOB - Inside, Outside, Beginning
+
+IOB format (còn gọi là BIO) là một cách mã hóa nhãn (tagging) phổ biến trong xử lý ngôn ngữ tự nhiên (NLP), đặc biệt dùng cho tác vụ chunking hoặc named-entity recognition (NER) — tức là phân đoạn (chunk) hoặc xác định các thực thể có tên trong văn bản.
+Wikipedia
+
+“I” (Inside) chỉ rằng từ/token nằm bên trong một chunk (không phải từ đầu).
+Wikipedia
+
+“B” (Beginning) chỉ rằng từ đó là bắt đầu của một chunk.
+Wikipedia
+
+“O” (Outside) dùng cho các từ không thuộc chunk nào (ngoài các chunk)
+Wikipedia
+
+Ví dụ: "Nguyễn Văn A làm việc tại Đại học Quốc gia Hà Nội."
+
+Nguyễn → (B-PER B = Bắt đầu, PER = Person); Văn → I-PER; A → I-PER; làm → O; việc → O; tại → O; Đại → (B-ORG B = Bắt đầu, ORG = Organization); học → I-ORG; Quốc → I-ORG; gia → I-ORG; Hà → I-ORG; Nội → I-ORG; . → O;
