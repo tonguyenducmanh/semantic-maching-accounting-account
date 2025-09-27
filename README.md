@@ -99,6 +99,8 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 
 Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
 
+Dùng PhoBERT để bóc tách diễn giải ra NER (sẽ giải thích ở bên dưới), sau đó dựa vào danh sách các từ đã bóc tách được, sử dụng rule base hoặc model AI khác để gợi ý ra tài khoản nợ có theo 3 bước trên
+
 hướng dẫn sử dụng model PhoBERT để thao tác với tiếng việt, tham khảo
 
 [PhoBERT film momo](sample_bert/Phobert_FilmMomo.ipynb)
