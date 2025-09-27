@@ -173,14 +173,18 @@ Nguyễn → (B-PER B = Bắt đầu, PER = Person); Văn → I-PER; A → I-PER
 
 ### Tập nhãn đề xuất cho NER
 
-B/I-ASSET: Tài sản/Chi phí liên quan đến tài sản (máy photocopy, tiền mặt, vật tư, công cụ) Loại 1, 2, 6, 8
+B/I-ASSET: Tài sản (đầu tài khoản 1, 2) (Tiền mặt, tiền gửi, vật tư, máy móc, phải thu...)
 
-B/I-LIABILITY: Nợ phải trả/Nguồn vốn (phải trả người bán, vay ngân hàng, thuế, vốn chủ sở hữu) Loại 3, 4
+B/I-EXPENSE: Chi phí (đầu tài khoản 6, 8) (Chi phí lương, chi phí quảng cáo, giá vốn hàng bán...)
 
-B/I-REVENUE: Doanh thu/Thu nhập khác (bán hàng, cung cấp dịch vụ, thu lãi) Loại 5, 7
+B/I-LIABILITY: Nợ phải trả (đầu tài khoản 3) (Phải trả người bán, vay ngân hàng, thuế...)
 
-B/I-AMOUNT: Giá trị, số tiền (50,000,000đ, 100 triệu) Thông tin cần thiết để kiểm tra tính cân đối
+B/I-EQUITY: Vốn chủ sở hữu (đầu tài khoản 4, 9) (Vốn đầu tư của chủ sở hữu, quỹ, lợi nhuận sau thuế...)
 
-B/I-ACTION: Hành động/Nghiệp vụ (mua, bán, góp vốn, thanh toán) Cực kỳ quan trọng để xác định Tăng/Giảm
+B/I-REVENUE: Doanh thu (đầu tài khoản 5, 7) Doanh thu bán hàng, thu nhập khác, doanh thu tài chính...
 
-O: Các từ không liên quan (ngày, hôm nay, tại, của)
+B/I-AMOUNT: Giá trị (50,000,000đ, 100 triệu, 10 gói mì tôm...)
+
+B/I-ACTION: Hành động (Mua, bán, góp vốn, thanh toán, nhận...)
+
+0: Khác (Ngày, hôm nay, tại, của, của công ty...)
