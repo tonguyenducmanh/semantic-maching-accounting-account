@@ -2,432 +2,432 @@
   {
     "account_number": "111",
     "descriptions": ["tiền mặt"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "112",
     "descriptions": ["tiền gửi ngân hàng"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "113",
     "descriptions": ["tiền đang chuyển"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "121",
     "descriptions": ["chứng khoán kinh doanh"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "128",
     "descriptions": ["đầu tư nắm giữ đến ngày đáo hạn"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "131",
     "descriptions": ["phải thu của khách hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "133",
     "descriptions": ["thuế gtgt được khấu trừ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "136",
     "descriptions": ["phải thu nội bộ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "138",
     "descriptions": ["phải thu khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "141",
     "descriptions": ["tạm ứng"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "151",
     "descriptions": ["hàng mua đang đi đường"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "152",
     "descriptions": ["nguyên liệu, vật liệu"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "153",
     "descriptions": ["công cụ, dụng cụ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "154",
     "descriptions": ["chi phí sản xuất, kinh doanh dở dang"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "155",
     "descriptions": ["thành phẩm"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "156",
     "descriptions": ["hàng hóa"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "157",
     "descriptions": ["hàng gửi đi bán"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "158",
     "descriptions": ["hàng hóa kho bảo thuế"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "161",
     "descriptions": ["chi sự nghiệp"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "171",
     "descriptions": ["giao dịch mua bán lại trái phiếu chính phủ"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "211",
     "descriptions": ["tài sản cố định hữu hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "212",
     "descriptions": ["tài sản cố định thuê tài chính"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "213",
     "descriptions": ["tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "214",
     "descriptions": ["hao mòn tài sản cố định"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "217",
     "descriptions": ["bất động sản đầu tư"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "221",
     "descriptions": ["đầu tư vào công ty con"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "222",
     "descriptions": ["đầu tư vào công ty liên doanh, liên kết"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "228",
     "descriptions": ["đầu tư khác"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "229",
     "descriptions": ["dự phòng tổn thất tài sản"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "241",
     "descriptions": ["xây dựng cơ bản dở dang"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "242",
     "descriptions": ["chi phí trả trước"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "243",
     "descriptions": ["tài sản thuế thu nhập hoãn lại"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "244",
     "descriptions": ["cầm cố, thế chấp, ký quỹ, ký cược"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "331",
     "descriptions": ["phải trả cho người bán"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "333",
     "descriptions": ["thuế và các khoản phải nộp nhà nước"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "334",
     "descriptions": ["phải trả người lao động"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "335",
     "descriptions": ["chi phí phải trả"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "336",
     "descriptions": ["phải trả nội bộ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "337",
     "descriptions": ["thanh toán theo tiến độ kế hoạch hợp đồng xây dựng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "338",
     "descriptions": ["phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "341",
-    "descriptions": ["vay và nợ thuê tài chính"],
-    "account_type": ["có"]
+    "descriptions": ["vay và dư nợ thuê tài chính"],
+    "account_type": ["dư có"]
   },
   {
     "account_number": "343",
     "descriptions": ["trái phiếu phát hành"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "344",
     "descriptions": ["nhận ký quỹ, ký cược"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "347",
     "descriptions": ["thuế thu nhập hoãn lại phải trả"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "352",
     "descriptions": ["dự phòng phải trả"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "353",
     "descriptions": ["quỹ khen thưởng, phúc lợi"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "356",
     "descriptions": ["quỹ phát triển khoa học và công nghệ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "357",
     "descriptions": ["quỹ bình ổn giá"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "411",
     "descriptions": ["vốn đầu tư của chủ sở hữu"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "412",
     "descriptions": ["chênh lệch đánh giá lại tài sản"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "413",
     "descriptions": ["chênh lệch tỷ giá hối đoái"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "414",
     "descriptions": ["quỹ đầu tư phát triển"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "417",
     "descriptions": ["quỹ hỗ trợ sắp xếp doanh nghiệp"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "418",
     "descriptions": ["các quỹ khác thuộc vốn chủ sở hữu"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "419",
     "descriptions": ["cổ phiếu quỹ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "421",
     "descriptions": ["lợi nhuận sau thuế chưa phân phối"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "441",
     "descriptions": ["nguồn vốn đầu tư xây dựng cơ bản"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "461",
     "descriptions": ["nguồn kinh phí sự nghiệp"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "466",
     "descriptions": ["nguồn kinh phí đã hình thành tscđ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "511",
     "descriptions": ["doanh thu bán hàng và cung cấp dịch vụ"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "515",
     "descriptions": ["doanh thu hoạt động tài chính"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "521",
     "descriptions": ["các khoản giảm trừ doanh thu"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "611",
     "descriptions": ["mua hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "621",
     "descriptions": ["chi phí nguyên liệu, vật liệu trực tiếp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "622",
     "descriptions": ["chi phí nhân công trực tiếp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "623",
     "descriptions": ["chi phí sử dụng máy thi công"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "627",
     "descriptions": ["chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "631",
     "descriptions": ["giá thành sản xuất"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "632",
     "descriptions": ["giá vốn hàng bán"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "635",
     "descriptions": ["chi phí tài chính"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "641",
     "descriptions": ["chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "642",
     "descriptions": ["chi phí quản lý doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "711",
     "descriptions": ["thu nhập khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "811",
     "descriptions": ["chi phí khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "821",
     "descriptions": ["chi phí thuế thu nhập doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "911",
     "descriptions": ["xác định kết quả kinh doanh"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "1111",
     "descriptions": ["tiền việt nam", "tiền mặt"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1112",
     "descriptions": ["ngoại tệ", "tiền mặt"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1113",
     "descriptions": ["vàng tiền tệ", "tiền mặt"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1121",
     "descriptions": ["tiền việt nam", "tiền gửi ngân hàng"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1122",
     "descriptions": ["ngoại tệ", "tiền gửi ngân hàng"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1123",
     "descriptions": ["vàng tiền tệ", "tiền gửi ngân hàng"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1131",
     "descriptions": ["tiền việt nam", "tiền đang chuyển"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1132",
     "descriptions": ["ngoại tệ", "tiền đang chuyển"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1211",
     "descriptions": ["cổ phiếu", "chứng khoán kinh doanh"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1212",
     "descriptions": ["trái phiếu", "chứng khoán kinh doanh"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1218",
@@ -435,22 +435,22 @@
       "chứng khoán và công cụ tài chính khác",
       "chứng khoán kinh doanh"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1281",
-    "descriptions": ["tiền gửi có kỳ hạn", "đầu tư nắm giữ đến ngày đáo hạn"],
-    "account_type": ["nợ"]
+    "descriptions": ["tiền gửi dư có kỳ hạn", "đầu tư nắm giữ đến ngày đáo hạn"],
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1282",
     "descriptions": ["trái phiếu", "đầu tư nắm giữ đến ngày đáo hạn"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1283",
     "descriptions": ["cho vay", "đầu tư nắm giữ đến ngày đáo hạn"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1288",
@@ -458,7 +458,7 @@
       "các khoản đầu tư khác nắm giữ đến ngày đáo hạn",
       "đầu tư nắm giữ đến ngày đáo hạn"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1331",
@@ -466,7 +466,7 @@
       "thuế gtgt được khấu trừ của hàng hóa, dịch vụ",
       "thuế gtgt được khấu trừ"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1332",
@@ -474,7 +474,7 @@
       "thuế gtgt được khấu trừ của tscđ",
       "thuế gtgt được khấu trừ"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1361",
@@ -482,12 +482,12 @@
       "vốn kinh doanh ở các đơn vị trực thuộc",
       "phải thu nội bộ"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1362",
     "descriptions": ["phải thu nội bộ về chênh lệch tỷ giá", "phải thu nội bộ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1363",
@@ -495,92 +495,92 @@
       "phải thu nội bộ về chi phí đi vay đủ điều kiện được vốn hóa",
       "phải thu nội bộ"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1368",
     "descriptions": ["phải thu nội bộ khác", "phải thu nội bộ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1381",
     "descriptions": ["tài sản thiếu chờ xử lý", "phải thu khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "1385",
     "descriptions": ["phải thu về cổ phần hóa", "phải thu khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "1388",
     "descriptions": ["phải thu khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "1531",
     "descriptions": ["công cụ, dụng cụ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1532",
     "descriptions": ["bao bì luân chuyển", "công cụ, dụng cụ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1533",
     "descriptions": ["đồ dùng cho thuê", "công cụ, dụng cụ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1534",
     "descriptions": ["thiết bị, phụ tùng thay thế", "công cụ, dụng cụ"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1551",
     "descriptions": ["thành phẩm nhập kho", "thành phẩm"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1557",
     "descriptions": ["thành phẩm bất động sản", "thành phẩm"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1561",
     "descriptions": ["giá mua hàng hóa", "hàng hóa"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1562",
     "descriptions": ["chi phí thu mua hàng hóa", "hàng hóa"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1567",
     "descriptions": ["hàng hóa bất động sản", "hàng hóa"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1611",
     "descriptions": ["chi sự nghiệp năm trước", "chi sự nghiệp"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "1612",
     "descriptions": ["chi sự nghiệp năm nay", "chi sự nghiệp"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2111",
     "descriptions": ["nhà cửa, vật kiến trúc", "tài sản cố định hữu hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2112",
     "descriptions": ["máy móc, thiết bị", "tài sản cố định hữu hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2113",
@@ -588,12 +588,12 @@
       "phương tiện vận tải, truyền dẫn",
       "tài sản cố định hữu hình"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2114",
     "descriptions": ["thiết bị, dụng cụ quản lý", "tài sản cố định hữu hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2115",
@@ -601,12 +601,12 @@
       "cây lâu năm, súc vật làm việc và cho sản phẩm",
       "tài sản cố định hữu hình"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2118",
     "descriptions": ["tscđ khác", "tài sản cố định hữu hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2121",
@@ -614,7 +614,7 @@
       "tscđ hữu hình thuê tài chính",
       "tài sản cố định thuê tài chính"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2122",
@@ -622,32 +622,32 @@
       "tscđ vô hình thuê tài chính",
       "tài sản cố định thuê tài chính"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2131",
     "descriptions": ["quyền sử dụng đất", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2132",
     "descriptions": ["quyền phát hành", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2133",
     "descriptions": ["bản quyền, bằng sáng chế", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2134",
     "descriptions": ["nhãn hiệu, tên thương mại", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2135",
     "descriptions": ["chương trình phần mềm", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2136",
@@ -655,42 +655,42 @@
       "giấy phép và giấy phép nhượng quyền",
       "tài sản cố định vô hình"
     ],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2138",
     "descriptions": ["tscđ vô hình khác", "tài sản cố định vô hình"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2141",
     "descriptions": ["hao mòn tscđ hữu hình", "hao mòn tài sản cố định"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2142",
     "descriptions": ["hao mòn tscđ thuê tài chính", "hao mòn tài sản cố định"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2143",
     "descriptions": ["hao mòn tscđ vô hình", "hao mòn tài sản cố định"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2147",
     "descriptions": ["hao mòn bất động sản đầu tư", "hao mòn tài sản cố định"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2281",
     "descriptions": ["đầu tư góp vốn vào đơn vị khác", "đầu tư khác"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2288",
     "descriptions": ["đầu tư khác"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2291",
@@ -698,7 +698,7 @@
       "dự phòng giảm giá chứng khoán kinh doanh",
       "dự phòng tổn thất tài sản"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2292",
@@ -706,12 +706,12 @@
       "dự phòng tổn thất đầu tư vào đơn vị khác",
       "dự phòng tổn thất tài sản"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2293",
     "descriptions": ["dự phòng phải thu khó đòi", "dự phòng tổn thất tài sản"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2294",
@@ -719,22 +719,22 @@
       "dự phòng giảm giá hàng tồn kho",
       "dự phòng tổn thất tài sản"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "2411",
     "descriptions": ["mua sắm tscđ", "xây dựng cơ bản dở dang"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2412",
     "descriptions": ["xây dựng cơ bản", "xây dựng cơ bản dở dang"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "2413",
     "descriptions": ["sửa chữa lớn tscđ", "xây dựng cơ bản dở dang"],
-    "account_type": ["nợ"]
+    "account_type": ["dư nợ"]
   },
   {
     "account_number": "3331",
@@ -742,7 +742,7 @@
       "thuế giá trị gia tăng phải nộp",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3332",
@@ -750,7 +750,7 @@
       "thuế tiêu thụ đặc biệt",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3333",
@@ -758,7 +758,7 @@
       "thuế xuất, nhập khẩu",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3334",
@@ -766,7 +766,7 @@
       "thuế thu nhập doanh nghiệp",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3335",
@@ -774,12 +774,12 @@
       "thuế thu nhập cá nhân",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3336",
     "descriptions": ["thuế tài nguyên", "thuế và các khoản phải nộp nhà nước"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3337",
@@ -787,7 +787,7 @@
       "thuế nhà đất, tiền thuê đất",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3338",
@@ -795,7 +795,7 @@
       "thuế bảo vệ môi trường và các loại thuế khác",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3339",
@@ -803,27 +803,27 @@
       "phí, lệ phí và các khoản phải nộp khác",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3341",
     "descriptions": ["phải trả công nhân viên", "phải trả người lao động"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3348",
     "descriptions": ["phải trả người lao động khác", "phải trả người lao động"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3361",
     "descriptions": ["phải trả nội bộ về vốn kinh doanh", "phải trả nội bộ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3362",
     "descriptions": ["phải trả nội bộ về chênh lệch tỷ giá", "phải trả nội bộ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3363",
@@ -831,72 +831,72 @@
       "phải trả nội bộ về chi phí đi vay đủ điều kiện được vốn hóa",
       "phải trả nội bộ"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3368",
     "descriptions": ["phải trả nội bộ khác", "phải trả nội bộ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3381",
     "descriptions": ["tài sản thừa chờ giải quyết", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3382",
     "descriptions": ["kinh phí công đoàn", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3383",
     "descriptions": ["bảo hiểm xã hội", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3384",
     "descriptions": ["bảo hiểm y tế", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3385",
     "descriptions": ["phải trả về cổ phần hóa", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3386",
     "descriptions": ["bảo hiểm thất nghiệp", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3387",
     "descriptions": ["doanh thu chưa thực hiện", "phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3388",
     "descriptions": ["phải trả, phải nộp khác"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "3411",
-    "descriptions": ["các khoản đi vay", "vay và nợ thuê tài chính"],
-    "account_type": ["có"]
+    "descriptions": ["các khoản đi vay", "vay và dư nợ thuê tài chính"],
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3412",
-    "descriptions": ["nợ thuê tài chính", "vay và nợ thuê tài chính"],
-    "account_type": ["có"]
+    "descriptions": ["dư nợ thuê tài chính", "vay và dư nợ thuê tài chính"],
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3431",
     "descriptions": ["trái phiếu thường", "trái phiếu phát hành"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3432",
     "descriptions": ["trái phiếu chuyển đổi", "trái phiếu phát hành"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3521",
@@ -904,7 +904,7 @@
       "dự phòng bảo hành sản phẩm hàng hóa",
       "dự phòng phải trả"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3522",
@@ -912,27 +912,27 @@
       "dự phòng bảo hành công trình xây dựng",
       "dự phòng phải trả"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3523",
     "descriptions": ["dự phòng tái cơ cấu doanh nghiệp", "dự phòng phải trả"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3524",
     "descriptions": ["dự phòng phải trả khác", "dự phòng phải trả"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3531",
     "descriptions": ["quỹ khen thưởng", "quỹ khen thưởng, phúc lợi"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3532",
     "descriptions": ["quỹ phúc lợi", "quỹ khen thưởng, phúc lợi"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3533",
@@ -940,7 +940,7 @@
       "quỹ phúc lợi đã hình thành tscđ",
       "quỹ khen thưởng, phúc lợi"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3534",
@@ -948,12 +948,12 @@
       "quỹ thưởng ban quản lý điều hành công ty",
       "quỹ khen thưởng, phúc lợi"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3561",
     "descriptions": ["quỹ phát triển khoa học và công nghệ"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "3562",
@@ -961,17 +961,17 @@
       "quỹ phát triển khoa học và công nghệ đã hình thành tscđ",
       "quỹ phát triển khoa học và công nghệ"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4111",
     "descriptions": ["vốn góp của chủ sở hữu", "vốn đầu tư của chủ sở hữu"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4112",
     "descriptions": ["thặng dư vốn cổ phần", "vốn đầu tư của chủ sở hữu"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4113",
@@ -979,20 +979,20 @@
       "quyền chọn chuyển đổi trái phiếu",
       "vốn đầu tư của chủ sở hữu"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4118",
     "descriptions": ["vốn khác", "vốn đầu tư của chủ sở hữu"],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4131",
     "descriptions": [
-      "chênh lệch tỷ giá do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ",
+      "chênh lệch tỷ giá do đánh giá lại các khoản mục tiền tệ dư có gốc ngoại tệ",
       "chênh lệch tỷ giá hối đoái"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "4132",
@@ -1000,7 +1000,7 @@
       "chênh lệch tỷ giá hối đoái trong giai đoạn trước hoạt động",
       "chênh lệch tỷ giá hối đoái"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "4211",
@@ -1008,7 +1008,7 @@
       "lợi nhuận sau thuế chưa phân phối năm trước",
       "lợi nhuận sau thuế chưa phân phối"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "4212",
@@ -1016,7 +1016,7 @@
       "lợi nhuận sau thuế chưa phân phối năm nay",
       "lợi nhuận sau thuế chưa phân phối"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "4611",
@@ -1024,7 +1024,7 @@
       "nguồn kinh phí sự nghiệp năm trước",
       "nguồn kinh phí sự nghiệp"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "4612",
@@ -1032,7 +1032,7 @@
       "nguồn kinh phí sự nghiệp năm nay",
       "nguồn kinh phí sự nghiệp"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "5111",
@@ -1040,7 +1040,7 @@
       "doanh thu bán hàng hóa",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5112",
@@ -1048,7 +1048,7 @@
       "doanh thu bán các thành phẩm",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5113",
@@ -1056,7 +1056,7 @@
       "doanh thu cung cấp dịch vụ",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5114",
@@ -1064,7 +1064,7 @@
       "doanh thu trợ cấp, trợ giá",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5117",
@@ -1072,7 +1072,7 @@
       "doanh thu kinh doanh bất động sản đầu tư",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5118",
@@ -1080,42 +1080,42 @@
       "doanh thu khác",
       "doanh thu bán hàng và cung cấp dịch vụ"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5211",
     "descriptions": ["chiết khấu thương mại", "các khoản giảm trừ doanh thu"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5212",
     "descriptions": ["hàng bán bị trả lại", "các khoản giảm trừ doanh thu"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "5213",
     "descriptions": ["giảm giá hàng bán", "các khoản giảm trừ doanh thu"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6111",
     "descriptions": ["mua nguyên liệu, vật liệu", "mua hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6112",
     "descriptions": ["mua hàng hóa", "mua hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6231",
     "descriptions": ["chi phí nhân công", "chi phí sử dụng máy thi công"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6232",
     "descriptions": ["chi phí vật liệu", "chi phí sử dụng máy thi công"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6233",
@@ -1123,7 +1123,7 @@
       "chi phí dụng cụ sản xuất",
       "chi phí sử dụng máy thi công"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6234",
@@ -1131,7 +1131,7 @@
       "chi phí khấu hao máy thi công",
       "chi phí sử dụng máy thi công"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6237",
@@ -1139,77 +1139,77 @@
       "chi phí dịch vụ mua ngoài",
       "chi phí sử dụng máy thi công"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6238",
     "descriptions": ["chi phí bằng tiền khác", "chi phí sử dụng máy thi công"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6271",
     "descriptions": ["chi phí nhân viên phân xưởng", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6272",
     "descriptions": ["chi phí vật liệu", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6273",
     "descriptions": ["chi phí dụng cụ sản xuất", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6274",
     "descriptions": ["chi phí khấu hao tscđ", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6277",
     "descriptions": ["chi phí dịch vụ mua ngoài", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6278",
     "descriptions": ["chi phí bằng tiền khác", "chi phí sản xuất chung"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6411",
     "descriptions": ["chi phí nhân viên", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6412",
     "descriptions": ["chi phí vật liệu, bao bì", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6413",
     "descriptions": ["chi phí dụng cụ, đồ dùng", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6414",
     "descriptions": ["chi phí khấu hao tscđ", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6415",
     "descriptions": ["chi phí bảo hành", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6417",
     "descriptions": ["chi phí dịch vụ mua ngoài", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6418",
     "descriptions": ["chi phí bằng tiền khác", "chi phí bán hàng"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6421",
@@ -1217,7 +1217,7 @@
       "chi phí nhân viên quản lý",
       "chi phí quản lý doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6422",
@@ -1225,7 +1225,7 @@
       "chi phí vật liệu quản lý",
       "chi phí quản lý doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6423",
@@ -1233,22 +1233,22 @@
       "chi phí đồ dùng văn phòng",
       "chi phí quản lý doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6424",
     "descriptions": ["chi phí khấu hao tscđ", "chi phí quản lý doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6425",
     "descriptions": ["thuế, phí và lệ phí", "chi phí quản lý doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6426",
     "descriptions": ["chi phí dự phòng", "chi phí quản lý doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6427",
@@ -1256,12 +1256,12 @@
       "chi phí dịch vụ mua ngoài",
       "chi phí quản lý doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "6428",
     "descriptions": ["chi phí bằng tiền khác", "chi phí quản lý doanh nghiệp"],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "8211",
@@ -1269,7 +1269,7 @@
       "chi phí thuế tndn hiện hành",
       "chi phí thuế thu nhập doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "8212",
@@ -1277,7 +1277,7 @@
       "chi phí thuế tndn hoãn lại",
       "chi phí thuế thu nhập doanh nghiệp"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "33311",
@@ -1286,7 +1286,7 @@
       "thuế giá trị gia tăng phải nộp",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "33312",
@@ -1295,7 +1295,7 @@
       "thuế giá trị gia tăng phải nộp",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "33381",
@@ -1304,7 +1304,7 @@
       "thuế bảo vệ môi trường và các loại thuế khác",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "33382",
@@ -1313,7 +1313,7 @@
       "thuế bảo vệ môi trường và các loại thuế khác",
       "thuế và các khoản phải nộp nhà nước"
     ],
-    "account_type": ["nợ", "có"]
+    "account_type": ["dư nợ", "dư có"]
   },
   {
     "account_number": "34311",
@@ -1322,7 +1322,7 @@
       "trái phiếu thường",
       "trái phiếu phát hành"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "34312",
@@ -1331,7 +1331,7 @@
       "trái phiếu thường",
       "trái phiếu phát hành"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "34313",
@@ -1340,16 +1340,16 @@
       "trái phiếu thường",
       "trái phiếu phát hành"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "41111",
     "descriptions": [
-      "cổ phiếu phổ thông có quyền biểu quyết",
+      "cổ phiếu phổ thông dư có quyền biểu quyết",
       "vốn góp của chủ sở hữu",
       "vốn đầu tư của chủ sở hữu"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   },
   {
     "account_number": "41112",
@@ -1358,6 +1358,6 @@
       "vốn góp của chủ sở hữu",
       "vốn đầu tư của chủ sở hữu"
     ],
-    "account_type": ["có"]
+    "account_type": ["dư có"]
   }
 ]

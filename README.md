@@ -15,6 +15,16 @@ install package
 pip install -r requirements.txt
 ```
 
+### Xác định nghiệp vụ tài khoản kế toán
+
+Dựa vào dòng diễn giải, xác định xem nghiệp vụ thuộc nhóm nghiệp vụ nào:
+
+Tài sản; Nợ phải trả; Vốn chủ sở hữu; Doanh thu; Chi phí; Kết quả kinh doanh
+
+Nguyên tắc kế toán kép (Double-entry accounting): mỗi tài khoản đều có tính chất (dư nợ, dư có hoặc lưỡng tính). Từ đó mới biết được khi nào ghi nợ, khi nào ghi có
+
+
+
 ### Pipeline gợi ý tài khoản kế toán
 
 NLU (Natural Language Understanding) mapping to ontology
