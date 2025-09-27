@@ -170,3 +170,17 @@ Wikipedia
 Ví dụ: "Nguyễn Văn A làm việc tại Đại học Quốc gia Hà Nội."
 
 Nguyễn → (B-PER B = Bắt đầu, PER = Person); Văn → I-PER; A → I-PER; làm → O; việc → O; tại → O; Đại → (B-ORG B = Bắt đầu, ORG = Organization); học → I-ORG; Quốc → I-ORG; gia → I-ORG; Hà → I-ORG; Nội → I-ORG; . → O;
+
+### Tập nhãn đề xuất cho NER
+
+B/I-ASSET: Tài sản/Chi phí liên quan đến tài sản (máy photocopy, tiền mặt, vật tư, công cụ) Loại 1, 2, 6, 8
+
+B/I-LIABILITY: Nợ phải trả/Nguồn vốn (phải trả người bán, vay ngân hàng, thuế, vốn chủ sở hữu) Loại 3, 4
+
+B/I-REVENUE: Doanh thu/Thu nhập khác (bán hàng, cung cấp dịch vụ, thu lãi) Loại 5, 7
+
+B/I-AMOUNT: Giá trị, số tiền (50,000,000đ, 100 triệu) Thông tin cần thiết để kiểm tra tính cân đối
+
+B/I-ACTION: Hành động/Nghiệp vụ (mua, bán, góp vốn, thanh toán) Cực kỳ quan trọng để xác định Tăng/Giảm
+
+O: Các từ không liên quan (ngày, hôm nay, tại, của)
