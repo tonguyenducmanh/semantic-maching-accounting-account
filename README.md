@@ -15,47 +15,70 @@ install package
 pip install -r requirements.txt
 ```
 
-### Xác định nghiệp vụ tài khoản kế toán
+## Xác định nghiệp vụ tài khoản kế toán
 
-Dựa vào dòng diễn giải, xác định xem nghiệp vụ thuộc nhóm nghiệp vụ nào:
+### Kết cấu cụ thể của các loại tài khoản kế toán:
 
-Tài sản; Nợ phải trả; Vốn chủ sở hữu; Doanh thu; Chi phí; Kết quả kinh doanh
+Tài sản = Nợ phải trả + Vốn chủ sở hữu
 
-Nguyên tắc kế toán kép (Double-entry accounting): mỗi tài khoản đều có tính chất (dư nợ, dư có hoặc lưỡng tính). Từ đó mới biết được khi nào ghi nợ, khi nào ghi có
+Doanh thu - Chi phí = Lợi nhuận
 
+Trong đó:
 
+- Tài sản: Ghi tăng bên nợ, ghi giảm bên có
 
-### Pipeline gợi ý tài khoản kế toán
+- Nợ phải trả: Ghi giảm bên nợ, ghi tăng bên có
 
-NLU (Natural Language Understanding) mapping to ontology
-(Ánh xạ NLU (hiểu ngôn ngữ tự nhiên) vào bản thể học) - (bản thể học ở đây hiểu là bản chất của 1 số tài khoản, xây dựng ra hệ thống khái niệm của từng tài khoản)
+- Vốn chủ sở hữu: Ghi giảm bên nợ, ghi tăng bên có
 
-User Input: "Thu tiền khách hàng Tô Mạnh"
+- Doanh thu: Ghi giảm bên nợ, Ghi tăng bên có
 
-Information Extraction: (Hành động, Đối tượng, Loại đối tượng)
+- Chi phí: Ghi tăng bên nợ, ghi giảm bên có
 
-- NER: phát hiện entity ("Khách hàng", "Nhà CC") có thể sử dụng thư viện spaCy hoặc underthesea của python kết hợp với model phoBERT
-- SRL: hành động ("Thu")
-- Relation Extraction
+- Lợi nhuận: Ghi giảm bên nợ, ghi tăng bên có
 
-Semantic Representation: Chuẩn hóa dữ liệu
+### Mỗi khi muốn điền tài khoản nợ, có, kế toán viên phải thực hiện 3 bước sau:
 
-- Hành động = "Thu tiền"
-- Loại = "Khách hàng"
+Ví dụ 1: Ngày 02/10/2025, Công ty TMDV Keto mua một máy Photocopy trị giá 50000000 đ. Công ty hẹn sẽ thanh toán chuyển khoản sau 1 tháng.
 
-Ontology / Knowledge Base:
+Bước 1: Xác định đối tượng kế toán và số hiệu tài khoản kế toán:
 
-- 1111: Tiền VN (thu/chi)
-- 131: Thu tiền KH
-- 331: Trả NCC
-- 334: Trả NLĐ
+- Tài sản cố định hữu hình (Máy photocopy) (Tài sản): TK 221
 
-Semantic Matching Engine:
+- Phải trả cho người bán (Nợ phải trả): TK 331
 
-- Encode (embedding)
-- Similarity search
-- Ánh xạ diễn giải → TK
+Bước 2: Phân tích biến động tăng, giảm:
 
-Gợi ý tài khoản Nợ/Có:
+Tài sản = Nợ phải trả + Vốn chủ sở hữu
 
-- Nợ 1111, Có 131
+- Tài sản cố định tăng 50000000 đ (Ghi nợ)
+
+- Phải trả cho người bán tăng 50000000 đ (Ghi có)
+
+Bước 3: Bút toán kép (Định khoản kế toán):
+
+- Tài khoản nợ: 221
+
+- Tài khoản có: 331
+
+Ví dụ 2: Ngày 01/10/2025, Nguyễn Văn Toán góp vốn đầu tư 100000000 đ vào Công ty TMDV Keto bằng tiền mặt.
+
+Bước 1: Xác định đối tượng kế toán và số hiệu tài khoản kế toán:
+
+- Tiền mặt (Tài sản): TK 111
+
+- Vốn đầu tư chủ sở hữu (Vốn chủ sở hữu): TK 411
+
+Bước 2: Phân tích biến động tăng, giảm:
+
+Tài sản = Nợ phải trả + Vốn chủ sở hữu
+
+- Tiền mặt tăng 100000000 đ (Ghi nợ)
+
+- Vốn đầu tư của chủ sở hữu tăng 100000000 đ (Ghi có)
+
+Bước 3: Bút toán kép (Định khoản kế toán):
+
+- Tài khoản nợ: 111
+
+- Tài khoản có: 411
