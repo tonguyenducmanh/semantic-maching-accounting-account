@@ -97,7 +97,7 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 
 # Ứng dụng model AI để gợi ý được đủ 3 bước này:
 
-## Tại bước 1: Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
+## Tại bước 1: Sử dụng model AI PhoBERT fine-tune cho bài toán NER (model được huấn luyện cho tiếng việt)
 
 Dùng PhoBERT để bóc tách diễn giải ra NER (sẽ giải thích ở bên dưới)
 
@@ -189,7 +189,7 @@ Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực t
 
 - Xử lý theo hướng cá nhân hóa: lặp lại từ bước 1 với các diễn giải các chứng từ đã lập của người dùng tại database cụ thể, kiểm tra xem tài khoản đã lưu của người dùng là gì. ví dụ 1111 thì lấy 1111, không có thì lấy 111
 
-### Cân nhắc dùng machine learning (bài toán classification trên structured features)
+### Cân nhắc dùng machine learning hoặc 1 model PhoBert fine-tune khác cho bài toán classification trên structured features
 
 Từ NER đã bớc tách có tập thông tin dạng structured:
 
