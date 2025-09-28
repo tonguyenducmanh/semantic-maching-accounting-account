@@ -191,7 +191,7 @@ Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực t
 
 ### Cân nhắc dùng machine learning hoặc 1 model PhoBert fine-tune khác cho bài toán classification trên structured features
 
-Từ NER đã bớc tách có tập thông tin dạng structured:
+Từ NER đã bóc tách có tập thông tin dạng structured:
 
 Entity types: ASSET, LIABILITY, EXPENSE, …
 
