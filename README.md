@@ -1,6 +1,6 @@
-## Project Nghiên cứu cách gợi ý tài khoản nợ có của chứng từ kế toán dựa vào diễn giải mà người dùng nhập liệu trên chứng từ
+# Project Nghiên cứu cách gợi ý tài khoản nợ có của chứng từ kế toán dựa vào diễn giải mà người dùng nhập liệu trên chứng từ
 
-### Cách cài đặt các package
+## Cách cài đặt các package
 
 venv
 
@@ -15,9 +15,9 @@ install package
 pip install -r requirements.txt
 ```
 
-## Xác định nghiệp vụ tài khoản kế toán
+# Xác định nghiệp vụ tài khoản kế toán
 
-### Kết cấu cụ thể của các loại tài khoản kế toán:
+## Kết cấu cụ thể của các loại tài khoản kế toán:
 
 Tài sản = Nợ phải trả + Vốn chủ sở hữu
 
@@ -37,7 +37,7 @@ Trong đó:
 
 - Lợi nhuận: Ghi giảm bên nợ, ghi tăng bên có
 
-### Danh sách các nhóm tài khoản:
+## Danh sách các nhóm tài khoản:
 
 - Loại 1, loại 2 là tài sản
 
@@ -49,7 +49,7 @@ Trong đó:
 
 - Loại 9 xác định kết quả hoạt động kinh doanh
 
-### Mỗi khi muốn điền tài khoản nợ, có, kế toán viên phải thực hiện 3 bước sau:
+## Mỗi khi muốn điền tài khoản nợ, có, kế toán viên phải thực hiện 3 bước sau:
 
 Ví dụ 1: Ngày 02/10/2025, Công ty TMDV Keto mua một máy Photocopy trị giá 50000000 đ. Công ty hẹn sẽ thanh toán chuyển khoản sau 1 tháng.
 
@@ -95,9 +95,9 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 
 - Tài khoản có: 411
 
-### Ứng dụng model AI để gợi ý được đủ 3 bước này:
+# Ứng dụng model AI để gợi ý được đủ 3 bước này:
 
-Tại bước 1: Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
+## Tại bước 1: Sử dụng model AI PhoBERT (model được huấn luyện cho tiếng việt)
 
 Dùng PhoBERT để bóc tách diễn giải ra NER (sẽ giải thích ở bên dưới)
 
@@ -108,38 +108,6 @@ hướng dẫn sử dụng model PhoBERT để thao tác với tiếng việt, t
 hướng dẫn NER với PhoBERT, tham khảo
 
 https://github.com/Avi197/Phobert-Named-Entity-Reconigtion
-
-Tại bước 2: Dựa vào danh sách các từ đã bóc tách được
-
-Sử dụng Rule base (code truyền thống) hoặc GPT để phân tích biến động tăng giảm
-
-Ưu tiên Rule base => Đây là logic nghiệp vụ kế toán gần như bất biến. Nếu dùng rule base thì kết quả trả về gần như tức thì.
-
-Ví dụ: Nếu NER bóc tách được (ASSET - Tài sản) + (ACTION=Mua/Nhận) → ASSET Tăng (Ghi Nợ).
-
-Tránh dùng GPT để tăng tốc độ.
-
-Tại bước 3: Ánh xạ mã tài khoản (Định khoản)
-
-Sử dụng cách tra cứu tài khoản trong database hoặc mô hình phân loại siêu tốc
-
-Ưu tiên tra cứu để tốc độ nhanh.
-
-Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực thể (entity) ở đây là Tiền mặt → tìm ra số tài khoản tương ứng
-
-Ở bước nhận diện số tài khoản này có 2 hướng xử lý:
-
-- Xử lý theo nghiệp vụ chung: trả về default tài khoản 111
-
-- Xử lý theo hướng cá nhân hóa: lặp lại từ bước 1 với các diễn giải các chứng từ đã lập của người dùng tại database cụ thể, kiểm tra xem tài khoản đã lưu của người dùng là gì. ví dụ 1111 thì lấy 1111, không có thì lấy 111
-
-Nếu cần phân loại phức tạp hơn (ví dụ: 621, 622, 627), dùng một Mô hình Phân loại đơn giản (như SVM hoặc Linear Layer trên đầu ra của PhoBERT) đã được huấn luyện riêng.
-
-### Giải pháp dự phòng
-
-2 library như spaCy và underthesea cũng có thể xử lý NLP, cân nhắc xem nếu PhoBERT không hiệu quả thì dùng 2 thư viện kia.
-
-Trong đó underthesea tập trung cho tiếng Việt hơn
 
 ### Named Entity Recognition - NER
 
@@ -190,3 +158,53 @@ B/I-AMOUNT: Giá trị (50,000,000đ, 100 triệu, 10 gói mì tôm...)
 B/I-ACTION: Hành động (Mua, bán, góp vốn, thanh toán, nhận...)
 
 0: Khác (Ngày, hôm nay, tại, của, của công ty...)
+
+## Tại bước 2: Dựa vào danh sách các từ đã bóc tách được
+
+### Sử dụng Rule base (code truyền thống) hoặc GPT để phân tích biến động tăng giảm
+
+Ưu tiên Rule base => Đây là logic nghiệp vụ kế toán gần như bất biến. Nếu dùng rule base thì kết quả trả về gần như tức thì.
+
+Ví dụ: Nếu NER bóc tách được (ASSET - Tài sản) + (ACTION=Mua/Nhận) → ASSET Tăng (Ghi Nợ).
+
+=> Bước này chỉ nhằm xác định xem tài khoản sắp tới định lấy ra sẽ ghi ở ô tài khoản nợ hay tài khoản có
+
+### Tránh dùng GPT để tăng tốc độ.
+
+GPT cho kết quả phản hồi rất lâu (gen từng text một theo thuật toán transformers).
+
+Mà lỗi lần lại gen 1 kiểu.
+
+## Tại bước 3: Ánh xạ mã tài khoản (Định khoản)
+
+Sử dụng cách tra cứu tài khoản trong database hoặc mô hình phân loại siêu tốc
+
+Ưu tiên tra cứu để tốc độ nhanh.
+
+Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực thể (entity) ở đây là Tiền mặt → tìm ra số tài khoản tương ứng
+
+Ở bước nhận diện số tài khoản này có 2 hướng xử lý:
+
+- Xử lý theo nghiệp vụ chung: trả về default tài khoản 111
+
+- Xử lý theo hướng cá nhân hóa: lặp lại từ bước 1 với các diễn giải các chứng từ đã lập của người dùng tại database cụ thể, kiểm tra xem tài khoản đã lưu của người dùng là gì. ví dụ 1111 thì lấy 1111, không có thì lấy 111
+
+### Cân nhắc dùng machine learning (bài toán classification trên structured features)
+
+Từ NER đã bớc tách có tập thông tin dạng structured:
+
+Entity types: ASSET, LIABILITY, EXPENSE, …
+
+Entity text (normalized): “tiền mặt”, “máy photocopy”, “phải trả người bán”…
+
+Action: mua, bán, góp vốn…
+
+=> Tạo ra feature vector được. Đầu ra sẽ chỉ có 1 cột duy nhất là tài khoản nợ là gì, tài khoản có là gì
+
+Nếu cần phân loại phức tạp hơn (ví dụ: 621, 622, 627), dùng một Mô hình Phân loại đơn giản (như SVM hoặc Linear Layer trên đầu ra của PhoBERT) đã được huấn luyện riêng.
+
+### Giải pháp dự phòng
+
+2 library như spaCy và underthesea cũng có thể xử lý NLP, cân nhắc xem nếu PhoBERT không hiệu quả thì dùng 2 thư viện kia.
+
+Trong đó underthesea tập trung cho tiếng Việt hơn
