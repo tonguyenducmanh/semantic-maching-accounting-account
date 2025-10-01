@@ -23,6 +23,8 @@ Tài sản = Nợ phải trả + Vốn chủ sở hữu
 
 Doanh thu - Chi phí = Lợi nhuận
 
+![demo ảnh 6 nhóm tài khoản](bussiness_accounting/videoframe_292636.png)
+
 Trong đó:
 
 - Tài sản: Ghi tăng bên nợ, ghi giảm bên có
@@ -49,31 +51,14 @@ Trong đó:
 
 - Loại 9 xác định kết quả hoạt động kinh doanh
 
+![list account](bussiness_accounting/videoframe_429101.png)
+
 ## Mỗi khi muốn điền tài khoản nợ, có, kế toán viên phải thực hiện 3 bước sau:
 
-Ví dụ 1: Ngày 02/10/2025, Công ty TMDV Keto mua một máy Photocopy trị giá 50000000 đ. Công ty hẹn sẽ thanh toán chuyển khoản sau 1 tháng.
+Ví dụ 1: Ngày 01/10/2025, Nguyễn Văn Toán góp vốn đầu tư 100000000 đ vào Công ty TMDV Keto bằng tiền mặt.
 
-Bước 1: Xác định đối tượng kế toán và số hiệu tài khoản kế toán:
+![image preview 2](bussiness_accounting/videoframe_665838.png)
 
-- Tài sản cố định hữu hình (Máy photocopy) (Tài sản): TK 221
-
-- Phải trả cho người bán (Nợ phải trả): TK 331
-
-Bước 2: Phân tích biến động tăng, giảm:
-
-Tài sản = Nợ phải trả + Vốn chủ sở hữu
-
-- Tài sản cố định tăng 50000000 đ (Ghi nợ)
-
-- Phải trả cho người bán tăng 50000000 đ (Ghi có)
-
-Bước 3: Bút toán kép (Định khoản kế toán):
-
-- Tài khoản nợ: 221
-
-- Tài khoản có: 331
-
-Ví dụ 2: Ngày 01/10/2025, Nguyễn Văn Toán góp vốn đầu tư 100000000 đ vào Công ty TMDV Keto bằng tiền mặt.
 
 Bước 1: Xác định đối tượng kế toán và số hiệu tài khoản kế toán:
 
@@ -94,6 +79,30 @@ Bước 3: Bút toán kép (Định khoản kế toán):
 - Tài khoản nợ: 111
 
 - Tài khoản có: 411
+
+Ví dụ 2: Ngày 02/10/2025, Công ty TMDV Keto mua một máy Photocopy trị giá 50000000 đ. Công ty hẹn sẽ thanh toán chuyển khoản sau 1 tháng.
+
+![image preview 1](bussiness_accounting/videoframe_825959.png)
+
+Bước 1: Xác định đối tượng kế toán và số hiệu tài khoản kế toán:
+
+- Tài sản cố định hữu hình (Máy photocopy) (Tài sản): TK 221
+
+- Phải trả cho người bán (Nợ phải trả): TK 331
+
+Bước 2: Phân tích biến động tăng, giảm:
+
+Tài sản = Nợ phải trả + Vốn chủ sở hữu
+
+- Tài sản cố định tăng 50000000 đ (Ghi nợ)
+
+- Phải trả cho người bán tăng 50000000 đ (Ghi có)
+
+Bước 3: Bút toán kép (Định khoản kế toán):
+
+- Tài khoản nợ: 221
+
+- Tài khoản có: 331
 
 # Ứng dụng model AI để gợi ý được đủ 3 bước này:
 
@@ -138,6 +147,8 @@ Wikipedia
 Ví dụ: "Nguyễn Văn A làm việc tại Đại học Quốc gia Hà Nội."
 
 Nguyễn → (B-PER B = Bắt đầu, PER = Person); Văn → I-PER; A → I-PER; làm → O; việc → O; tại → O; Đại → (B-ORG B = Bắt đầu, ORG = Organization); học → I-ORG; Quốc → I-ORG; gia → I-ORG; Hà → I-ORG; Nội → I-ORG; . → O;
+
+![demo ner](bussiness_accounting/demo_ner.png)
 
 ### Tập nhãn đề xuất cho NER
 
@@ -188,6 +199,9 @@ Ví dụ: Nếu bước 2 xác định ASSET - Tài sản là tăng và thực t
 - Xử lý theo nghiệp vụ chung: trả về default tài khoản 111
 
 - Xử lý theo hướng cá nhân hóa: lặp lại từ bước 1 với các diễn giải các chứng từ đã lập của người dùng tại database cụ thể, kiểm tra xem tài khoản đã lưu của người dùng là gì. ví dụ 1111 thì lấy 1111, không có thì lấy 111
+(có thể tạo 1 bảng cơ sở dữ liệu, với các cột ví dụ như: tài sản và số tài khoản, nguồn vốn và số tài khoản,... => khi user nhập thêm 1 chứng từ lại bóc tách ra xem nó phù hợp bảng tài sản + số tài khoản hay nguồn vốn + số tài khoản)
+
+![list account sme](bussiness_accounting/list_account.png)
 
 ### Cân nhắc dùng machine learning hoặc 1 model PhoBert fine-tune khác cho bài toán classification trên structured features
 
